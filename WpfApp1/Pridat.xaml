@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfApp1.Pridat"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Pridat" Height="450" Width="450">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Margin="154,88,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" x:Name="ProNazev"/>
+
+        <TextBox HorizontalAlignment="Left" Margin="154,159,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" x:Name="ProPocet"/>
+
+        <TextBox HorizontalAlignment="Left" Margin="154,122,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" x:Name="ProCena"/>
+
+        <Label Content="Název:" HorizontalAlignment="Left" Margin="97,84,0,0" VerticalAlignment="Top"/>
+
+        <Label Content="Počet:" HorizontalAlignment="Left" Margin="97,118,0,0" VerticalAlignment="Top"/>
+
+        <Label Content="Cena:" HorizontalAlignment="Left" Margin="97,155,0,0" VerticalAlignment="Top"/>
+
+        <Button Content="Uložit" HorizontalAlignment="Left" Margin="257,248,0,0" VerticalAlignment="Top" Height="20" Width="80" Click="Button_Click_1"/>
+
+        <Button Content="Zavřít" HorizontalAlignment="Left" Margin="117,248,0,0" VerticalAlignment="Top" Height="20" Width="80" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Left" Margin="154,189,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" x:Name="ProID"/>
+        <Label Content="ID:" HorizontalAlignment="Left" Margin="100,185,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
